@@ -14,7 +14,7 @@ public class Dog extends Animal implements SoundProducible {
 
     @Override
     public void callSound() {
-        System.out.println("Barking");
+        System.out.print("Barking");
 
     }
 }

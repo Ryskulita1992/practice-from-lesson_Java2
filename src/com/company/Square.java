@@ -8,13 +8,16 @@ public class Square  extends Figure {
     }
 
     public Square(String name, int sideA) {
-
+        super(name);
         this.sideA = sideA;
-        this.getName();
-
-
-
     }
+
+    public Square(int sideA) {
+        this.sideA = sideA;
+    }
+
+
+
 
     public double calculatePerimeter (){
         return sideA*4;
@@ -23,6 +26,7 @@ public class Square  extends Figure {
     @Override
     public String draw() {
         return "⛛";
+
     }
 
     ;

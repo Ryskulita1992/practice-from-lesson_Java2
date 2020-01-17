@@ -18,6 +18,7 @@ public  class Main {
 
 
         Dog d = new Dog();
+        d.getName();
         d.makeDraw();
         d.callSound();
     }
